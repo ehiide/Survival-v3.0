@@ -1,0 +1,258 @@
+#!   _______         _______        _________        _______ _
+#!  (  ____ |\     /(  ____ |\     /\__   __|\     /(  ___  ( \
+#!  | (    \| )   ( | (    )| )   ( |  ) (  | )   ( | (   ) | (
+#!  | (_____| |   | | (____)| |   | |  | |  | |   | | (___) | |
+#!  (_____  | |   | |     __( (   ) )  | |  ( (   ) |  ___  | |
+#!        ) | |   | | (\ (   \ \_/ /   | |   \ \_/ /| (   ) | |
+#!  /\____) | (___) | ) \ \__ \   / ___) (___ \   / | )   ( | (____/\
+#!  \_______(_______|/   \__/  \_/  \_______/  \_/  |/     \(_______/
+#
+#   Plik konfiguracyjny zostal wygenerowany automatycznie.
+#
+#   Poniżej znajdują się ustawienia, które mogą mieć bezpośredni afekt na rozgrywkę.
+#   Aby zresetować konfigurację, usuń ten plik i zrestartuj swój serwer.
+#
+#   W przypadku jakichkolwiek problemów z plikiem konfiguracyjnym, zaleca się jego reset.
+#   Po zastosowaniu zmian koniecznie zrestartuj swój serwer.
+#
+#   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+#
+#   USTAWIENIA GLOBALNE
+#
+
+global:
+
+  # Bezpośrednie ustawienia jakościowe serwera.
+
+  server:
+    max-players: 10
+    server-icon: "server-icon.png"
+    server-motd: "&cSurvival 3\n@realehide"
+
+  # Globalne ustawienia wtyczki.
+
+  survival:
+    disable-custom-sounds: false
+    disable-icon-checker: false
+    prefixes:
+      chat: "#f83044[Survival] #8c8c8c"
+      broadcast: "#f83044[Ogloszenie] #8c8c8c"
+      logging: "#f83044[Autoryzacja] #8c8c8c"
+
+  # Usawienia czysto kosmetyczne obejmujące wszystkich graczy.
+
+  cosmetics:
+    admin-chat-for-moderators: true
+    announce-advancements: true
+    announce-deaths: true
+    announce-kills: true
+    announce-player-join: true
+    announce-player-quit: true
+    announce-quests: true
+    visible-player-rank: true
+
+  # Kompletna lista komend, które możesz w każdej chwili odpowiednio skonfigurować.
+  # Syntax: "Status, Dostęp dla administratorów, Dostęp dla moderatorów, Dostęp dla graczy"
+
+  commands:
+    ban: "true, true, false, false"
+    controller: "true, true, false, false"
+    craftingi: "true, true, true, true"
+    crash: "true, true, false, false"
+    dom: "true, true, true, true"
+    ecsee: "true, true, false, false"
+    feed: "true, true, false, false"
+    flight: "true, true, false, false"
+    gamemode: "true, true, false, false"
+    gang: "true, true, true, true"
+    heal: "true, true, false, false"
+    invsee: "true, true, false, false"
+    ip: "true, true, false, false"
+    kick: "true, true, true, false"
+    mute: "true, true, true, false"
+    odpowiedz: "true, true, true, true"
+    ogloszenie: "true, true, false, false"
+    paleta: "true, true, true, true"
+    ping: "true, true, true, true"
+    pomoc: "true, true, true, true"
+    postac: "true, true, true, true"
+    powiedz: "true, true, true, false"
+    questy: "true, true, true, true"
+    quicksave: "true, true, true, false"
+    ram: "true, true, false, false"
+    ranga: "true, true, false, false"
+    schowek: "true, true, true, true"
+    sklep: "true, true, true, true"
+    slub: "true, true, true, true"
+    tp: "true, true, false, false"
+    tpa: "true, true, true, true"
+    tps: "true, true, false, false"
+    time: "true, true, true, false"
+    unban: "true, true, false, false"
+    unmute: "true, true, true, false"
+    vanish: "true, true, true, false"
+    weather: "true, true, true, false"
+    whitelist: "true, true, false, false"
+    wiadomosc: "true, true, true, true"
+    wystaw: "true, true, true, true"
+    zaplac: "true, true, true, true"
+
+  # Zaawansowany system przechowywania i zapisywania wszystkich posunięć graczy na serwerze.
+  # Każda interakcja, itp. zapisywana jest w oddzielynm pliku, ułatwiąjąc zarządzanie.
+
+  logger:
+    advancement: true
+    chat: true
+    command: true
+    consume: true
+    craft: true
+    death: true
+    enchant: true
+    join: true
+    kill: true
+    leave: true
+    portal: true
+    shop: true
+    sign: true
+
+#
+#   USTAWIENIA DODATKÓW
+#
+
+function:
+
+  # Pozwala grać na serwerze tylko wybranym graczom.
+
+  whitelist:
+    status: false
+    blocked-connection-notify: true
+
+  # Autoryzacja chroni i udoskonala grę dla graczy non-premium.
+
+  authorization:
+    anti-vpn: true
+    hide-notifications: false
+    restore-skins: true
+
+  # Aether i Twilight to dwa dodatkowe światy, kryjące naprawdę wiele.
+
+  aether:
+    status: true
+    function:
+      high-jump: true
+      overworld-fall-effect: true
+    mobs:
+      ether-horse: true
+      ether-king: true
+      ether-warrior: true
+    structures:
+      fallen-sacrum: true
+      fallen-trees: true
+      flowers: true
+      pantheon: true
+      ruined-portal: true
+      stones: true
+      trees: true
+      water-drops: true
+
+  twilight:
+    status: true
+    mobs:
+      evil-pirate: true
+      evil-spider: true
+      dark-pirate: true
+      dark-wizard: true
+    structures:
+      bushes: true
+      mushrooms: true
+      trees: true
+      twilight-ship: true
+      twilight-tower: true
+
+  # Narkotyki na serwerze, zachowujące wysoką precyzję co do realności.
+
+  chemistry:
+    status: true
+    restore-interval: 300
+
+  # Rynek od graczy dla graczy, pozwalający sprzedawać, wystawiać i kupować przedmioty między graczami.
+
+  trade-me:
+    max-player-trades: 5
+    max-trade-cost: 10000
+
+  # Wbudowany automatyczny enhancer hitów, starający się poprawić PVP.
+  # Ustawienia domyślnego PVP to kolejno 1.0, 20, false.
+
+  better-hits:
+    knockback: 0.675
+    hit-delay: 15
+    swing-multiplier: true
+
+  # LPM chroni serwer przed wystąpieniem lagów i opóźnień.
+
+  lag-prevention-machine: true
+
+  # Ore Miner i Timber to każdemu dobrze znane dodatki pozwalające wykopać calutką rudę lub ściąć drzewo za jednym machnięciem.
+
+  ore-miner: true
+  timber: true
+
+  # Maksymalny czas oczekiwania na odpowiedź gracza.
+
+  timings:
+    gang: 60
+    marry: 30
+    tpa: 60
+
+  # Ustawienia odnośnie siadania na schodkach.
+
+  sitting:
+    status: true
+    block-interactions: true
+    block-unnatural-movements: true
+
+  # Inne wyselekcjonowane dodatki.
+
+  double-door-opener: true
+  fire-aspect-expander: true
+  gravity-expander: true
+  plant-protection: true
+  silk-touch-spawners: true
+  stonecutter-damage: true
+
+#
+#   USTAWIENIA WIZUALNE
+#
+
+visual:
+
+  # Efekty wizualne poprawiające wrażenia podczas walki.
+
+  combat:
+    blind-when-critial: true
+    sharp-when-hit: true
+    blood-when-death: true
+    damage-indicator-hologram: true
+
+  # Efekty wizualne odnoszące się do gracza.
+
+  player:
+    firework-when-enter: true
+    title-sending: true
+
+  # Efekty wizualne otaczające itemki aurą efektów.
+
+  entities:
+    item-hologram: true
+    projectile-trail: true
+    snowball-terrain-freeze: true
+
+  # Inne efekty wizualne.
+
+  miscellaneous:
+    falling-leaves: true
+    timber-leaves-grind: true
+    explode:
+      status: true
+      block-count: 8

@@ -1,0 +1,136 @@
+main: mc.server.survival.files.Main
+name: Survival
+prefix: Survival
+
+load: POSTWORLD
+
+api-version: 1.17
+version: 3
+
+authors: [Eh1de, schiziss, misspill, ProseczeqPL]
+description: Marvellous survival core
+
+commands:
+  dom:
+    usage: /dom
+    aliases: [dom, home, sethome]
+  wiadomosc:
+    usage: /wiadomosc
+    aliases: [wiadomosc, wiad, w, msg]
+  odpowiedz:
+    usage: /odpowiedz
+    aliases: [odpowiedz, odp, reply, r]
+  schowek:
+    usage: /schowek
+    aliases: [schowek, sch, backpack]
+  pomoc:
+    usage: /pomoc
+    aliases: [pomoc, help]
+  ping:
+    usage: /ping
+    aliases: [ping, ms]
+  craftingi:
+    usage: /craftingi
+    aliases: [craftingi, crafting, crafts, receptury]
+  zaplac:
+    usage: /zaplac
+    aliases: [zaplac, pay, przelew]
+  paleta:
+    usage: /paleta
+    aliases: [paleta, kolory, colors, hex]
+  tpa:
+    usage: /tpa
+    aliases: [tpa]
+  sklep:
+    usage: /sklep
+    aliases: [sklep, bazar, shop]
+  slub:
+    usage: /slub
+    aliases: [slub, zareczyny, marry]
+  gang:
+    usage: /gang
+    aliases: [gang, klan, gildia, klub]
+  ip:
+    usage: /ip
+    aliases: [ip, adres, address]
+  mute:
+    usage: /mute
+    aliases: [mute, wycisz, ucisz]
+  unmute:
+    usage: /unmute
+    aliases: [unmute, odcisz]
+  kick:
+    usage: /kick
+    aliases: [kick, wyrzuc, wyjeb]
+  powiedz:
+    usage: /powiedz
+    aliases: [powiedz, falszywawiadomosc, fw, say]
+  postac:
+    usage: /postac
+    aliases: [postac, profil, profile, statystyki]
+  questy:
+    usage: /questy
+    aliases: [questy, misje, zadania, zlecenia]
+  whitelist:
+    usage: /whitelist
+    aliases: [whitelist, whitelista, wstep, bialalista]
+  ranga:
+    usage: /ranga
+    aliases: [ranga, rank]
+  quicksave:
+    usage: /quicksave
+    aliases: [quicksave, qs, save, zapisz]
+  wystaw:
+    usage: /wystaw
+    aliases: [wystaw, trade, oferta, zaoferuj, oferuj, trading, sprzedaz]
+  invsee:
+    usage: /invsee
+    aliases: [invsee, eq, ekwipunek]
+  ecsee:
+    usage: /ecsee
+    aliases: [ecsee, enderchest]
+  crash:
+    usage: /crash
+    aliases: [crash, cc]
+  tps:
+    usage: /tps
+    aliases: [tps, lag]
+  ram:
+    usage: /ram
+    aliases: [ram, memory, pamiec]
+  vanish:
+    usage: /vanish
+    aliases: [vanish, ukryj, ukrycie, niewidka, niewidzialnosc]
+  ban:
+    usage: /ban
+    aliases: [ban, zbanuj, banuj]
+  unban:
+    usage: /unban
+    aliases: [unban, odbanuj, pardon]
+  heal:
+    usage: /heal
+    aliases: [heal, ulecz, wylecz, hp, health]
+  feed:
+    usage: /feed
+    aliases: [feed, nakarm, glod, hunger]
+  gamemode:
+    usage: /gamemode
+    aliases: [gamemode, gm, tryb, gms, gma, gmc, gmsp]
+  tp:
+    usage: /tp
+    aliases: [tp, teleport, teleportacja]
+  flight:
+    usage: /flight
+    aliases: [flight, fly, latanie]
+  ogloszenie:
+    usage: /ogloszenie
+    aliases: [ogloszenie, broadcast]
+  controller:
+    usage: /controller
+    aliases: [controller, kontroler]
+  weather:
+    usage: /weather
+    aliases: [weather, pogoda]
+  time:
+    usage: /time
+    aliases: [time, czas]
